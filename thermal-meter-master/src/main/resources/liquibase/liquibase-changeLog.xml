@@ -1,0 +1,8 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="classpath:liquibase/v_1.0/user_data_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:liquibase/v_1.0/modify_phone_number_field.xml"  relativeToChangelogFile="false"/>
+
+</databaseChangeLog>
